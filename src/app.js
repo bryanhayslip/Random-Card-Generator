@@ -5,9 +5,16 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
+// setInterval(generateCard, 2000);
+
+// window.setInterval(refresh(), 8000);
+
+// function refresh() {
+//   window.location.reload();
+// }
+
 window.onload = function() {
-  document.querySelector(".card").classList.add(generateRandomSuit());
-  // document.querySelector(".cardbottom").classList.add(generateRandomSuit());
+  document.querySelector(".card").className = "card " + generateRandomSuit();
   document.querySelector(".number").innerHTML = generateRandomNumber();
 };
 

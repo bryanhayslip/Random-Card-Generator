@@ -15,6 +15,14 @@ body {
   position: relative;
   text-align: center;
 }
+/* .button {
+  margin-top: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.button button {
+  background-color: white;
+} */
 .number {
   font-size: 120px;
 }
@@ -29,9 +37,11 @@ body {
 }
 .card.heart::after {
   content: "\2665";
+  color: red;
 }
 .card.diamond::after {
   content: "\2666";
+  color: red;
 }
 .card.club::after {
   content: "\2663";
@@ -49,9 +59,11 @@ body {
 }
 .card.heart::before {
   content: "\2665";
+  color: red;
 }
 .card.diamond::before {
   content: "\2666";
+  color: red;
 }
 .card.club::before {
   content: "\2663";
